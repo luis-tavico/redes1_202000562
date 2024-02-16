@@ -31,45 +31,45 @@ Topologia de la red.
 
 ![pc_admin](imagenes/pc_admin.png)
 
-La imagen anterior representa la configuracion de la VPC perteneciente al area de administracion.
+La imagen anterior representa la configuracion de la VPC perteneciente al nivel 1, area de administracion.
 
 ![pc_ger_sec](imagenes/pc_ger_sec.png)
 
-La imagen anterior representa la configuracion de la VPC perteneciente al area de gerencia/secretaria.
+La imagen anterior representa la configuracion de la VPC perteneciente al nivel 1, area de gerencia/secretaria.
 
 ![pc_aten_clien](imagenes/pc_aten_clien.png)
 
-La imagen anterior representa la configuracion de la VPC perteneciente al area de antecion al cliente.
+La imagen anterior representa la configuracion de la VPC perteneciente al nivel 1, area de antecion al cliente.
 
 ![pc_rh](imagenes/pc_rh.png)
 
-La imagen anterior representa la configuracion de la VPC perteneciente al area de recursos humanos.
+La imagen anterior representa la configuracion de la VPC perteneciente al nivel 1, area de recursos humanos.
 
 ![pc_oficina_a](imagenes/pc_oficina_a.png)
 
-La imagen anterior representa la configuracion de la VPC perteneciente al area de oficina A.
+La imagen anterior representa la configuracion de la VPC perteneciente al nivel 2, area de oficina A.
 
 ![pc_oficina_b](imagenes/pc_oficina_b.png)
 
-La imagen anterior representa la configuracion de la VPC perteneciente al area de oficina B.
+La imagen anterior representa la configuracion de la VPC perteneciente al nivel 2, area de oficina B.
 
 ![pc_oficina_c](imagenes/pc_oficina_c.png)
 
-La imagen anterior representa la configuracion de la VPC perteneciente al area de oficina C.
+La imagen anterior representa la configuracion de la VPC perteneciente al nivel 2, area de oficina C.
 
 ### Ping entre los Hosts
 
 ![ping1](imagenes/ping_192.168.62.10.png)
 
-La imagen anterior representa el ping realizado de la VPC 192.168.62.10 a la VPC 192.168.62.11.
+La imagen anterior representa el ping realizado de la VPC 192.168.62.10 (nivel 1, administracion) a la VPC 192.168.62.11 (nivel 1, gerencia/secretaria).
 
 ![ping1](imagenes/ping_192.168.62.14.png)
 
-La imagen anterior representa el ping realizado de la VPC 192.168.62.13 a la VPC 192.168.62.14.
+La imagen anterior representa el ping realizado de la VPC 192.168.62.13 (nivel 1, atencion al cliente) a la VPC 192.168.62.14 (nivel 1, recursos humanos).
 
 ![ping1](imagenes/ping_192.168.62.20.png)
 
-La imagen anterior representa el ping realizado de la VPC 192.168.62.12 a la VPC 192.168.62.20.
+La imagen anterior representa el ping realizado de la VPC 192.168.62.12 (nivel 1, atencion al cliente) a la VPC 192.168.62.20 (nivel 2, oficina A).
 
 ### Paquete ARP/ICMP
 
