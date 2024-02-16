@@ -24,45 +24,57 @@ A continuacion se mostraran capturas de pantallas de los resultados obtenidos al
 ### Topologia
 
 ![topologia](imagenes/topologia.png)
+
 Topologia de la red.
 
 ### Configuracion de las VPC
 
 ![pc_admin](imagenes/pc_admin.png)
+
 La imagen anterior representa la configuracion de la VPC perteneciente al area de administracion.
 
 ![pc_ger_sec](imagenes/pc_ger_sec.png)
+
 La imagen anterior representa la configuracion de la VPC perteneciente al area de gerencia/secretaria.
 
 ![pc_aten_clien](imagenes/pc_aten_clien.png)
+
 La imagen anterior representa la configuracion de la VPC perteneciente al area de antecion al cliente.
 
 ![pc_rh](imagenes/pc_rh.png)
+
 La imagen anterior representa la configuracion de la VPC perteneciente al area de recursos humanos.
 
 ![pc_oficina_a](imagenes/pc_oficina_a.png)
+
 La imagen anterior representa la configuracion de la VPC perteneciente al area de oficina A.
 
 ![pc_oficina_b](imagenes/pc_oficina_b.png)
+
 La imagen anterior representa la configuracion de la VPC perteneciente al area de oficina B.
 
 ![pc_oficina_c](imagenes/pc_oficina_c.png)
+
 La imagen anterior representa la configuracion de la VPC perteneciente al area de oficina C.
 
 ### Ping entre los Hosts
 
 ![ping1](imagenes/ping_192.168.62.10.png)
+
 La imagen anterior representa el ping realizado de la VPC 192.168.62.10 a la VPC 192.168.62.11.
 
 ![ping1](imagenes/ping_192.168.62.14.png)
+
 La imagen anterior representa el ping realizado de la VPC 192.168.62.13 a la VPC 192.168.62.14.
 
 ![ping1](imagenes/ping_192.168.62.20.png)
+
 La imagen anterior representa el ping realizado de la VPC 192.168.62.12 a la VPC 192.168.62.20.
 
 ### Paquete ARP/ICMP
 
 ![arp](imagenes/arp.png)
+
 La imagen anterior representa la captura de un paquete ARP.
 
 ## Construido con 🛠
